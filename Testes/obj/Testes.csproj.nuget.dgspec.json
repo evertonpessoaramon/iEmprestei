@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/everton/Source/repositories/iEmprestei/Testes/Testes.csproj": {}
+  },
+  "projects": {
+    "/home/everton/Source/repositories/iEmprestei/Compartilhado/Compartilhado.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/everton/Source/repositories/iEmprestei/Compartilhado/Compartilhado.csproj",
+        "projectName": "Compartilhado",
+        "projectPath": "/home/everton/Source/repositories/iEmprestei/Compartilhado/Compartilhado.csproj",
+        "packagesPath": "/home/everton/.nuget/packages/",
+        "outputPath": "/home/everton/Source/repositories/iEmprestei/Compartilhado/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/everton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/everton/Source/repositories/iEmprestei/Dominio/Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/everton/Source/repositories/iEmprestei/Dominio/Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "/home/everton/Source/repositories/iEmprestei/Dominio/Dominio.csproj",
+        "packagesPath": "/home/everton/.nuget/packages/",
+        "outputPath": "/home/everton/Source/repositories/iEmprestei/Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/everton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/everton/Source/repositories/iEmprestei/Compartilhado/Compartilhado.csproj": {
+                "projectPath": "/home/everton/Source/repositories/iEmprestei/Compartilhado/Compartilhado.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/everton/Source/repositories/iEmprestei/Testes/Testes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/everton/Source/repositories/iEmprestei/Testes/Testes.csproj",
+        "projectName": "Testes",
+        "projectPath": "/home/everton/Source/repositories/iEmprestei/Testes/Testes.csproj",
+        "packagesPath": "/home/everton/.nuget/packages/",
+        "outputPath": "/home/everton/Source/repositories/iEmprestei/Testes/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/everton/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/everton/Source/repositories/iEmprestei/Compartilhado/Compartilhado.csproj": {
+                "projectPath": "/home/everton/Source/repositories/iEmprestei/Compartilhado/Compartilhado.csproj"
+              },
+              "/home/everton/Source/repositories/iEmprestei/Dominio/Dominio.csproj": {
+                "projectPath": "/home/everton/Source/repositories/iEmprestei/Dominio/Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
