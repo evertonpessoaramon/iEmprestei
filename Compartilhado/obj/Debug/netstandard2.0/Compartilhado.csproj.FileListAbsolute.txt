@@ -1,9 +1,0 @@
-/home/everton/Source/repositories/iEmprestei/Compartilhado/bin/Debug/netstandard2.0/Compartilhado.deps.json
-/home/everton/Source/repositories/iEmprestei/Compartilhado/bin/Debug/netstandard2.0/Compartilhado.dll
-/home/everton/Source/repositories/iEmprestei/Compartilhado/bin/Debug/netstandard2.0/Compartilhado.pdb
-/home/everton/Source/repositories/iEmprestei/Compartilhado/obj/Debug/netstandard2.0/Compartilhado.csprojAssemblyReference.cache
-/home/everton/Source/repositories/iEmprestei/Compartilhado/obj/Debug/netstandard2.0/Compartilhado.csproj.CoreCompileInputs.cache
-/home/everton/Source/repositories/iEmprestei/Compartilhado/obj/Debug/netstandard2.0/Compartilhado.AssemblyInfoInputs.cache
-/home/everton/Source/repositories/iEmprestei/Compartilhado/obj/Debug/netstandard2.0/Compartilhado.AssemblyInfo.cs
-/home/everton/Source/repositories/iEmprestei/Compartilhado/obj/Debug/netstandard2.0/Compartilhado.dll
-/home/everton/Source/repositories/iEmprestei/Compartilhado/obj/Debug/netstandard2.0/Compartilhado.pdb
